@@ -23,7 +23,7 @@
     ]
 @endphp
 
-<div class="bg-primary py-5" id="services">
+<div class="my-blue-bg py-5" id="services">
     <div class="container">
         <div class="d-flex align-items-center justify-content-between">
             @foreach ($services as $service)

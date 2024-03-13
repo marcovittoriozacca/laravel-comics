@@ -130,7 +130,7 @@ return [
                 ],
                 [
                     "link" => 'TV',
-                    "url" => "TV"
+                    "url" => "tv"
                 ],
                 [
                     "link" => 'games',

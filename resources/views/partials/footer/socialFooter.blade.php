@@ -28,11 +28,11 @@
     ]
 @endphp
 
-<div class="py-5 bg-dark" id="footer-bottom-banner">
+<div class="py-5 my-dark-bg" id="footer-bottom-banner">
     <div class="container">
         <div class="row">
             <div class="col-8">
-                <a href="#" class="text-white text-uppercase p-3 border border-2 border-primary ">
+                <a href="#" class="text-white text-uppercase p-3 border border-2 border-primary fw-bolder">
                     sign-up now!
                 </a>
             </div>
@@ -43,7 +43,7 @@
                     </a>
                     @foreach ($socials as $social)
                     <a class="social d-flex align-items-center justify-content-center rounded-circle bg-secondary" href="{{$social['url']}}">
-                        <i class="{{$social['icon']}} text-dark"></i>
+                        <i class="{{$social['icon']}} social-icon my-dark-color"></i>
                     </a>
                     @endforeach
                 </div>
