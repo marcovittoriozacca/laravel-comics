@@ -24,3 +24,35 @@ a{
         }
     }
 }
+
+//footer style
+#footer-bg{
+    background: url('../images/footer-bg.jpg') center no-repeat;
+    background-size: cover;
+
+    .list-max-h{
+        max-height: 50lvh;
+    }
+
+    .footer-dc-bg{
+        background: url('../images/dc-logo-bg.png') no-repeat center;
+        background-size: cover;
+        height: 100%;
+    }
+}
+
+#footer-bottom-banner{
+        .follow-us{
+            font-size: 1.2rem;
+        }
+        .social{
+            background-color: red;
+            width: 20px;
+            padding: 10px 20px;
+
+            i{
+                font-size: 1.3rem;    
+            }
+        }
+    
+}

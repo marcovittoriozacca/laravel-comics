@@ -26,6 +26,7 @@
     {{-- footer --}}
     <footer>
         @include('partials.footer.linkFooter')
+        @include('partials.footer.socialFooter')
     </footer>
 
 </body>
