@@ -1,0 +1,16 @@
+@import "bootstrap/scss/bootstrap";
+
+a{
+    text-decoration: none;
+    color: black;
+    &:hover{
+        color: blue;
+    }
+}
+
+//jumbotron style
+.jumbotron{
+    background: url('../images/jumbotron.jpg') no-repeat top;
+    background-size: cover;
+    height: 43lvh;
+}
