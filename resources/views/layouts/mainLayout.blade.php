@@ -19,6 +19,7 @@
     <main>
         {{-- jumbotron --}}
         <div class="jumbotron"></div>
+        @yield('mainContent')
     </main>
 
 
