@@ -13,9 +13,36 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//home page
 Route::get('/', function () {
 
     $comics = config('comics.comics');
 
     return view('comics', compact('comics'));
-})->name('comicPage');
+})->name('comics');
+
+//characters page
+Route::get('/characters', function () {
+    return view('characters');
+})->name('characters');
+
+//comics page
+Route::get('/comics', function () {
+
+    $comics = config('comics.comics');
+
+    return view('comics', compact('comics'));
+})->name('comics');
+
+
+
+//movies page
+Route::get('/movies', function () {
+    return view('movies');
+})->name('movies');
+
+//tv page
+Route::get('/tv', function () {
+    return view('tv');
+})->name('tv');
+

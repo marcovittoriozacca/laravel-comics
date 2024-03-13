@@ -55,7 +55,7 @@
                 <ul class="list-unstyled d-flex justify-content-between">
                     @foreach ($navLinks as $link)
                     <li>
-                        <a href="/{{$link['url']}}" class="text-uppercase">
+                        <a href="{{$link['url']}}" class="text-uppercase">
                             {{$link['name']}}
                         </a>
                     </li>
