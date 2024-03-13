@@ -16,12 +16,17 @@
         @include('partials.header.navBar')
     </header>
 
+    {{-- main --}}
     <main>
         {{-- jumbotron --}}
         <div class="jumbotron"></div>
         @yield('mainContent')
     </main>
 
+    {{-- footer --}}
+    <footer>
+        @include('partials.footer.linkFooter')
+    </footer>
 
 </body>
 </html>
